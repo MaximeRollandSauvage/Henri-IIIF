@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 376,
+    "id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir/canvas/",
+    "label" : {
+      "none" : [ "portrait_noir" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 12,
+              "height" : 15
+            }, {
+              "width" : 24,
+              "height" : 30
+            }, {
+              "width" : 47,
+              "height" : 60
+            }, {
+              "width" : 94,
+              "height" : 120
+            }, {
+              "width" : 188,
+              "height" : 240
+            }, {
+              "width" : 376,
+              "height" : 480
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 376,
+            "@id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 480
+          } ],
+          "format" : "image/jpeg",
+          "width" : 376,
+          "id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 480
+        },
+        "target" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/portrait_noir/canvas/"
+      } ]
+    } ],
+    "height" : 480
+  }, {
     "width" : 512,
     "id" : "https://MaximeRollandSauvage.github.io/Henri IIIF/images/anjou/canvas/",
     "label" : {
